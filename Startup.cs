@@ -29,7 +29,7 @@ namespace aspnetcore_vue
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true,
-                    ConfigFile = Path.Combine(env.ContentRootPath, @"node_modules\@vue\cli-service\webpack.config.js")
+                    ConfigFile = Path.Combine(env.ContentRootPath, @"node_modules/@vue/cli-service/webpack.config.js")
                 });
             }
 
